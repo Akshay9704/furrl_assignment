@@ -29,9 +29,6 @@ const modalStyles: CSSProperties = {
   transform: "translate(-50%, -50%)",
   backgroundColor: "white",
   zIndex: 1,
-  ...(window.innerWidth <= 768 && {
-    left: "50%",
-  }),
 };
 
 const Content: React.FC = () => {
