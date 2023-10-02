@@ -7,11 +7,11 @@ import Content from "./(Content)/content";
 export default function Home() {
 
   const bookmarkClick = () => {
-    window.location.href = "https://web.furrl.in/wishlist";
+    window.open("https://web.furrl.in/wishlist");
   }
-
+  
   const shoppingClick = () => {
-    window.location.href = "https://web.furrl.in/cart";
+    window.open("https://web.furrl.in/cart");
   }
 
   return (
