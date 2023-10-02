@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="w-11/12 lg:w-1/4 m-auto">
+      <div className="w-full lg:w-1/4 mx-2 lg:m-auto">
         <header className="flex justify-between mt-2 mr-3">
           <div></div>
           <div>
